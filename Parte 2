@@ -1,0 +1,20 @@
+// PARTE 2
+
+public class Main {
+    
+    public static void main(String args[]){
+        Coche miCoche = new Coche();
+        miCoche.AgregarPuerta();
+        System.out.println(miCoche.NumeroPuertas);
+    }
+    
+}
+
+class Coche {
+    
+        int NumeroPuertas=4;
+        
+        public void AgregarPuerta () {
+            this.NumeroPuertas++;
+        }
+}
